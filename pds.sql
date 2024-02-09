@@ -7,5 +7,4 @@ WHERE bd."rationCardNumber" IN (
   FROM undefinednfsamemberdatashare n
   UNION -- Removes duplicates between the two scheme tables
   SELECT s."rationcard_number"
-  FROM undefinedsfssmemberdatashare s
-);
+  FROM undefinedsfssmemberdatashare s);;
